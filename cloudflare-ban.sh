@@ -8,8 +8,7 @@ CFUSER=${5}
 CFZONE=${6}
 CFMODE=${7}
 
-curl -X POST "https://api.cloudflare.com/client/v4/zones/$CFZONE/firewall/access
-_rules/rules" \
+curl -X POST "https://api.cloudflare.com/client/v4/zones/$CFZONE/firewall/access_rules/rules" \
      -H "X-Auth-Email: $CFUSER" \
      -H "X-Auth-Key: $CFTOKEN" \
      -H "Content-Type: application/json" \
