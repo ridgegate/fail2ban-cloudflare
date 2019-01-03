@@ -13,5 +13,4 @@ _rules/rules" \
      -H "X-Auth-Email: $CFUSER" \
      -H "X-Auth-Key: $CFTOKEN" \
      -H "Content-Type: application/json" \
-     --data "{\"mode\":\"$CFMODE\",\"configuration\":{\"target\":\"ip\",\"value\
-":\"$IPADDR\"},\"notes\":\"$JAIL\"}"
+     --data "{\"mode\":\"$CFMODE\",\"configuration\":{\"target\":\"ip\",\"value\":\"$IPADDR\"},\"notes\":\"$JAIL\"}"
